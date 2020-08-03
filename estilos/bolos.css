@@ -1,0 +1,114 @@
+body{
+    margin-top: 15px;
+    background-color: #c9bdb4;
+    font-size: x-large;
+}
+#menu{
+    width: 500px;
+    margin: 0 auto;
+    
+}
+#menu ul{ /*deixar um ao lado do outro e sem bolinha*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    position: relative;
+}
+/*menu principal*/
+#menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:  #4e2304;
+    background-color: #AC8B70;
+    padding: 7px 20px;
+    margin-right: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: x-large;
+}
+/*submenu do menu principal*/
+#menu ul li ul{
+    display: none;
+    position: absolute;
+    padding-top: 7px;
+}
+/*itens do submenu que definem a largura deles e suas distancias entre si*/
+#menu ul li ul li a{
+    width: 150px;
+    margin-top: 5px;
+}
+/*a cor que os itens do sub ficarão*/
+#menu ul li ul li a:hover{
+    background-color: #927359;
+}
+/*mostra os itens*/
+#menu li:hover ul{
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #927359;
+}
+#bolo1{
+    max-width: 70%;
+    height: 600px;
+    clear: both;
+    padding: 1px 1px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+#bolo1 p{
+    font-size: x-large;
+    text-align: left;
+    display: block;
+    margin-top: 14%;
+    min-width: 422px;
+    max-width: 90%;
+}
+#bolo2{
+    max-width: 70%;
+    height: 600px;
+    clear: both;
+    padding: 1px 35px;
+    margin: 0 auto;
+}
+#bolo2 p{
+    font-size: x-large;
+    text-align: left;
+    display: block;
+    margin-top: 14%;
+    min-width: 330px;
+    max-width: 80%;
+}
+.fotoBolos{
+    float: left;    
+    height: 45%;
+    padding: 5% 2%;
+    margin-top: 9%;
+    padding-left: 1%;
+}
+#precoBolo{
+    list-style: none;
+    padding-left: 0%;
+    display: inline-block;
+    
+    
+}
+.precoAntigo{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #AC8B70;
+    position: static;
+    margin-top: 99%;
+    display: block;
+}
